@@ -29,7 +29,33 @@ header{
     height: 100px;
     position: fixed;
     z-index: 100;
+container {
+    width: 90%; /* Ancho fluido */
+    margin: 0 auto; /* Centra el contenedor */
+  }
+  
+  img {
+    max-width: 100%; /* Asegura que las imágenes no se desborden */
+    height: auto;
+  }
 
+  .container {
+    display: flex;
+    flex-direction: column; /* O row, dependiendo del diseño */
+  }
+  
+  .item {
+    flex: 1; /* O especifica un valor para el tamaño */
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Diseño adaptable */
+  }
+  
+  .grid-item {
+    padding: 10px;
+  }
 }
 .container__header{
     max-width: 1200px;
