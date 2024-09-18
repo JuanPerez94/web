@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #7da7dc;
+}
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+span{
+    color: #e9edf1;;
+
+}
+
+.detel p{
+    text-align: center;
+    color: #323435;
+    line-height: 22px;
+}
